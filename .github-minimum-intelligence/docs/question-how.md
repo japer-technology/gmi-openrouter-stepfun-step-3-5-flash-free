@@ -116,3 +116,9 @@ It works by refusing new infrastructure and reinterpreting old infrastructure:
 - commits as continuity.
 
 Minimum Intelligence is compelling not because it invents a new platform, but because it reveals that the platform developers needed was already there. The repository was never just a place to store code. With the right loop, it becomes a place where intelligence can be born, shaped, audited, and trusted.
+
+<p align="center">
+  <picture>
+    <img src="https://raw.githubusercontent.com/japer-technology/github-minimum-intelligence/main/.github-minimum-intelligence/logo.png" alt="Minimum Intelligence" width="500">
+  </picture>
+</p>
