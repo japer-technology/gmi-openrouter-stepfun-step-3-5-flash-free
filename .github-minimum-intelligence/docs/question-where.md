@@ -111,4 +111,11 @@ In this architecture, it is distributed but coherent:
 
 Minimum Intelligence’s deepest claim is that intelligence should not orbit the repository as an external service. It should inhabit the repository as a first-class, auditable participant. This codebase demonstrates that claim concretely: the “where” of AI is not a dashboard, not a chat tab, not a vendor silo.
 
+<p align="center">
+  <picture>
+    <img src="https://raw.githubusercontent.com/japer-technology/github-minimum-intelligence/main/.github-minimum-intelligence/logo.png" alt="Minimum Intelligence" width="500">
+  </picture>
+</p>
+
+
 It is the repo itself.
