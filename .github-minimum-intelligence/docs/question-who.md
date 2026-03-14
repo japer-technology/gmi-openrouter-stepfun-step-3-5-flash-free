@@ -111,9 +111,3 @@ At any given moment: the current tree, the current history, the current instruct
 That answer is refreshingly untheatrical. It does not depend on anthropomorphism. It depends on artifacts.
 
 In Minimum Intelligence, identity is not hidden in a proprietary backend. It is staged, negotiated, and persisted in the same medium as software itself. The repository does not merely *contain* intelligence. It defines who that intelligence is allowed to become.
-
-<p align="center">
-  <picture>
-    <img src="https://raw.githubusercontent.com/japer-technology/github-minimum-intelligence/main/.github-minimum-intelligence/logo.png" alt="Minimum Intelligence" width="500">
-  </picture>
-</p>

@@ -1,5 +1,5 @@
 {
-  "defaultProvider": "openrouter",
-  "defaultModel": "stepfun/step-3.5-flash:free",
+  "defaultProvider": "openai",
+  "defaultModel": "gpt-5.4",
   "defaultThinkingLevel": "high"
 }

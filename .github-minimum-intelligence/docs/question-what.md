@@ -150,9 +150,3 @@ Its core claim is simple and radical:
 - keep control with the maintainers.
 
 When those conditions hold, AI stops being an external convenience layer and becomes an internal, governable part of engineering practice.
-
-<p align="center">
-  <picture>
-    <img src="https://raw.githubusercontent.com/japer-technology/github-minimum-intelligence/main/.github-minimum-intelligence/logo.png" alt="Minimum Intelligence" width="500">
-  </picture>
-</p>

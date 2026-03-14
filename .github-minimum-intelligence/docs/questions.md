@@ -12,9 +12,3 @@ Six foundational questions define GitHub Minimum Intelligence. Each examines the
 | [Where?](question-where.md) | Maps where intelligence physically lives—runtime in GitHub Actions, memory in versioned state files, identity in checked-in markdown, and authorization in existing repository permissions. |
 | [How?](question-how.md) | Walks through the implementation—issues as conversational input, Actions as execution runtime, an LLM as reasoning substrate, and Git commits as durable memory. |
 | [How Much?](question-how-much.md) | Asks how much intelligence a repository can hold, and argues the ceiling is social stewardship, not token count—memory scales with Git history, not context windows. |
-
-<p align="center">
-  <picture>
-    <img src="https://raw.githubusercontent.com/japer-technology/github-minimum-intelligence/main/.github-minimum-intelligence/logo.png" alt="Minimum Intelligence" width="500">
-  </picture>
-</p>

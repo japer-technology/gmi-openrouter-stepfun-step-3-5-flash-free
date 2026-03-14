@@ -135,10 +135,3 @@ Then “when” ceases to be a fear—of forgetting, drifting, or losing control
 In that sense, the most important clock in AI-assisted software is not wall time.
 
 It is commit time.
-
-<p align="center">
-  <picture>
-    <img src="https://raw.githubusercontent.com/japer-technology/github-minimum-intelligence/main/.github-minimum-intelligence/logo.png" alt="Minimum Intelligence" width="500">
-  </picture>
-</p>
-

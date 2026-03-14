@@ -1,6 +1,12 @@
-# Warning - Blast Radius Analysis
+# Capabilities Analysis
 
 > [Index](./index.md) · [Security Assessment](./security-assessment.md) · [Incident Response](./incident-response.md) · [Before You Begin](./final-warning.md)
+
+<p align="center">
+  <picture>
+    <img src="https://raw.githubusercontent.com/japer-technology/github-minimum-intelligence/main/.github-minimum-intelligence/logo.png" alt="Minimum Intelligence" width="500">
+  </picture>
+</p>
 
 > **What capabilities does the AI agent have?**
 >
@@ -335,8 +341,4 @@ The GMI agent, out-of-the-box, operates with **broad privilege** relative to its
 
 Standard GitHub hardening practices (scoped tokens, branch protection, code review, network controls) significantly reduce this surface. See [Section 8](#8-mitigations-assessment) above for details.
 
-<p align="center">
-  <picture>
-    <img src="https://raw.githubusercontent.com/japer-technology/github-minimum-intelligence/main/.github-minimum-intelligence/logo.png" alt="Minimum Intelligence" width="500">
-  </picture>
-</p>
+

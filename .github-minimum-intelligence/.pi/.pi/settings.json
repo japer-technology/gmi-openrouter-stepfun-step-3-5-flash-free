@@ -1,0 +1,5 @@
+{
+  "defaultProvider": "openrouter",
+  "defaultModel": "stepfun/step-3.5-flash:free",
+  "defaultThinkingLevel": "high"
+}

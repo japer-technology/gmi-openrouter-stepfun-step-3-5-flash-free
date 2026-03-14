@@ -317,10 +317,3 @@ Create an incident record capturing:
 ---
 
 *This incident response plan is maintained under the obligations of the Third Law (Preserve Integrity). Preparedness is not paranoia — it is a duty.*
-
-<p align="center">
-  <picture>
-    <img src="https://raw.githubusercontent.com/japer-technology/github-minimum-intelligence/main/.github-minimum-intelligence/logo.png" alt="Minimum Intelligence" width="500">
-  </picture>
-</p>
-

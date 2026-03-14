@@ -156,9 +156,3 @@ It is stewardship.
 If this repo is the mind, then intelligence grows exactly the way software quality grows: commit by commit, discussion by discussion, constraint by constraint, with memory that survives the people and processes that created it.
 
 And that is the point.
-
-<p align="center">
-  <picture>
-    <img src="https://raw.githubusercontent.com/japer-technology/github-minimum-intelligence/main/.github-minimum-intelligence/logo.png" alt="Minimum Intelligence" width="500">
-  </picture>
-</p>

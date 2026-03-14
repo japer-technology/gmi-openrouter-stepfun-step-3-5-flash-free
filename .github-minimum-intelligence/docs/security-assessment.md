@@ -109,11 +109,11 @@ The `github-minimum-intelligence` system is an AI coding agent that runs autonom
 
 | Component | Version | Role |
 |-----------|---------|------|
-| `@mariozechner/pi-coding-agent` | ^0.52.5 | Core AI agent: prompt processing, LLM interaction, tool execution |
+| `@mariozechner/pi-coding-agent` | 0.57.1 | Core AI agent: prompt processing, LLM interaction, tool execution |
 | GitHub Actions Workflow | N/A | Orchestration: triggers, authorization, environment setup |
 | Lifecycle Scripts (TypeScript) | N/A | Agent initialization and indicator management |
 | Anthropic Claude | N/A | LLM backend for reasoning and code generation |
-| `actions/checkout@v4` | v4 | Repository checkout |
+| `actions/checkout@v6` | v6 | Repository checkout |
 | `oven-sh/setup-bun@v2` | v2 | Bun runtime installation |
 
 ---
@@ -365,7 +365,7 @@ The `github-minimum-intelligence` system is an AI coding agent that runs autonom
 ### Dependency Tree
 
 ```
-@mariozechner/pi-coding-agent@^0.52.5
+@mariozechner/pi-coding-agent@0.57.1
 ├── @anthropic-ai/sdk          (Anthropic API client)
 ├── @aws-sdk/client-bedrock-runtime  (AWS Bedrock)
 ├── openai                     (OpenAI API client)
@@ -382,14 +382,14 @@ The `github-minimum-intelligence` system is an AI coding agent that runs autonom
 | Compromised transitive dep | Low-Medium | 🔴 Critical - code execution in agent context | Lockfile frozen ✅, audit tree |
 | Typosquatting attack | Low | 🟠 High | Verify package name and publisher |
 | Malicious update via `^` range | Medium | 🔴 Critical - auto-resolves to new minor/patch | Pin exact version |
-| GitHub Actions supply chain (`actions/checkout@v4`) | Low | 🟠 High | Pin to commit SHA instead of tag |
+| GitHub Actions supply chain (`actions/checkout@v6`) | Low | 🟠 High | Pin to commit SHA instead of tag |
 
 ### Immediate Actions
 
-1. **Pin `@mariozechner/pi-coding-agent`** to exact version (e.g., `0.52.5` not `^0.52.5`).
+1. **Pin `@mariozechner/pi-coding-agent`** to exact version (already pinned at `0.57.1`).
 2. **Pin GitHub Actions** to commit SHAs:
    ```yaml
-   - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11  # v4.1.1
+   - uses: actions/checkout@<sha>  # v6
    - uses: oven-sh/setup-bun@a1800f471a0bc25cddac36bb13e8f6f1bfbd702c  # v2
    ```
 3. **Run `bun audit`** or equivalent to check for known vulnerabilities.
@@ -665,10 +665,3 @@ This project follows a coordinated disclosure model:
 *This report was generated under the obligations of the Third Law (Preserve Integrity) and the First Law (Do No Harm). Transparency about security posture is not optional - it is a duty.*
 
 *"Security is not a feature. It is a property - and one that must be continuously earned."*
-
-<p align="center">
-  <picture>
-    <img src="https://raw.githubusercontent.com/japer-technology/github-minimum-intelligence/main/.github-minimum-intelligence/logo.png" alt="Minimum Intelligence" width="500">
-  </picture>
-</p>
-
